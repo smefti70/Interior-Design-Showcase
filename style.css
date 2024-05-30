@@ -192,11 +192,12 @@ input{
 }
 
 #submit-btn{
+    display: block;
     width: 100%;
     border: none;
     background-color: #FE6347;
     color: white;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 18px;
     text-align: center;
     cursor: pointer;
