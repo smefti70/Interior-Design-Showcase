@@ -1,3 +1,4 @@
+// Scripts for Basic Sign Up Button
 document.getElementById('basic-btn').addEventListener('click', function() {
     this.disabled = true;
     document.getElementById('basic-btn').style.backgroundColor = '#FFF';
@@ -15,7 +16,7 @@ document.getElementById('basic-btn').addEventListener('click', function() {
     document.getElementById('basic-plan-container').appendChild(newDiv);
 });
 
-
+// Scripts for Basic Minus Button
 document.getElementById('basic-minus').addEventListener('click',function(){
     let Price = document.getElementById('basic-plan').innerText;
     let Rooms = document.getElementById('basic-plan-room-no').innerText;
@@ -32,6 +33,7 @@ document.getElementById('basic-minus').addEventListener('click',function(){
     document.getElementById('basic-plan-room-no').innerText = Rooms;
 })
 
+// Scripts for Basic Plus Button
 document.getElementById('basic-plus').addEventListener('click',function(){
     let Price = document.getElementById('basic-plan').innerText;
     let Rooms = document.getElementById('basic-plan-room-no').innerText;
@@ -43,6 +45,7 @@ document.getElementById('basic-plus').addEventListener('click',function(){
     document.getElementById('basic-plan-room-no').innerText = Rooms;
 })
 
+// Scripts for Pro Minus Button
 document.getElementById('pro-minus').addEventListener('click',function(){
     let Price = document.getElementById('pro-plan').innerText;
     let Rooms = document.getElementById('pro-plan-room-no').innerText;
@@ -59,6 +62,7 @@ document.getElementById('pro-minus').addEventListener('click',function(){
     document.getElementById('pro-plan-room-no').innerText = Rooms;
 })
 
+// Scripts for Pro Plus Button
 document.getElementById('pro-plus').addEventListener('click',function(){
     let Price = document.getElementById('pro-plan').innerText;
     let Rooms = document.getElementById('pro-plan-room-no').innerText;
@@ -70,7 +74,7 @@ document.getElementById('pro-plus').addEventListener('click',function(){
     document.getElementById('pro-plan-room-no').innerText = Rooms;
 })
 
-
+// Scripts for Pro Sign Up Button
 
 document.getElementById('pro-btn').addEventListener('click',function(){
     this.disabled = true;
